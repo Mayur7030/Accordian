@@ -1,0 +1,32 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .accordion .title {
+    cursor: pointer;
+    background-color: #eee;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion .content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion .title:hover {
+    background-color: #ddd;
+  }
+  
+  .accordion .title.active {
+    background-color: #ccc;
+  }
+  
+  .accordion .content.active {
+    display: block;
+  }
+
+  
